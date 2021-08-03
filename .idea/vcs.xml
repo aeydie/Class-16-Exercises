@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Git-Exercises" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Git-Exercises/communication-log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/communication-log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/Class-16-Exercises/Class-16-Studio/Fetch-and-JSON-Studio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/DOM-and-Events-Studio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/GA5-Practice/LC-A5-Prep-3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/GA6/orbit-report-assignment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/LC-A5-prep-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/LC-A5-prep-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/Launch-Checklist-Form/Launch-Checklist-Form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/angular/angular-lc101-projects" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/angular_practice/angular-studio-part1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/angular_practice/studio-angular-2/angular-lc101-mission-planner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/html-me-something" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/studio-15/HTTP-and-Forms-Studio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/launchcode/typescript-lc101-projects" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/newLesson3/angular-lc101-projects" vcs="Git" />
+  </component>
+</project>
