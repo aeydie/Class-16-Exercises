@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6ed9963-59a8-4c30-bccd-68c4e7fb735c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/Desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/orbit-list/orbit-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/orbit-list/orbit-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/orbit-list/orbit-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/orbit-list/orbit-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/satellite..spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/app/satellite..ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GA6/orbit-report-assignment/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../First-Java-Project/First-Java-Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlowCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class-16-Exercises/Class-16-Studio/Fetch-and-JSON-Studio" beforeDir="false" afterPath="$PROJECT_DIR$/../../Class-16-Exercises/Class-16-Studio/Fetch-and-JSON-Studio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Launch-Checklist-Form/Launch-Checklist-Form" beforeDir="false" afterPath="$PROJECT_DIR$/../../Launch-Checklist-Form/Launch-Checklist-Form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular_practice/angular-studio-part1/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1vSPmiQdZV7jGylEnyOQVvnIVKP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-web-dev-exercises/src/org/launchcode/java/demos/lsn2controlflowandcollections/ArrayGradebook.java" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ControlFlowCollections" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlFlowCollections" />
+      <module name="Practice Space" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Practice Space" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ControlFlowCollections" />
+      <item itemvalue="Application.Main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6ed9963-59a8-4c30-bccd-68c4e7fb735c" name="Default Changelist" comment="" />
+      <created>1626552690065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626552690065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
