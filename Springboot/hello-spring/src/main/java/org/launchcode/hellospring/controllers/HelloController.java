@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @ResponseBody
-@RequestBody
+@RequestMapping("hello")
 public class HelloController {
 
     //lives at the path /hello
@@ -34,16 +34,61 @@ public class HelloController {
         return "Hello " + name + "!";
     }
 
+
+    @RequestMapping(value="hello", method = RequestMethod.POST)
+    @ResponseBody
+    public String helloPost(@RequestParam String name, @RequestParam String language) {
+        if (name == null) {
+            name = "World";
+        }
+
+        return createMessage(name, language);
+
+    public static String createMessage(String n, String l) {
+        String greeting = "";
+
+        if (l.equals("english")) {
+            greeting = "Hello";
+        }
+        else if (l.equals("french")) {
+            greeting = "Bonjour";
+        }
+        else if (l.equals("italian")) {
+            greeting = "Bonjourno";
+        }
+        else if (l.equals("spanish")) {
+            greeting = "Hola";
+        }
+        else if (l.equals("german")) {
+            greeting = "Hallo";
+        }
+
+        return greeting + " " + n;
+    }
+
+        @RequestMapping(value="hello", method = RequestMethod.POST)
+        @ResponseBody
+        public String helloPost(@RequestParam String name, @RequestParam String language) {
+            if (name == null) {
+                name = "World";
+            }
+
+            return createMessage(name, language);
+
     @GetMapping("form")
     @ResponseBody
-    public String helloFrom() {
-        return "<html>" +
+    public String helloForm() {
+        String controllerExercisesString =
+                "<html>" +
                 "<body>" +
                 "<form action= 'hello' method= 'post'>" +
                 "<input type= 'text' name= 'name'>" +
                 "<input type= 'submit' value= 'Greet me'>" +
+                        "" +
+                        "<select name= "languages" id = "language-choices"" +
                 "</form>" +
                 "</body>" +
                 "</html>";
+        return controllerExercisesString;
     }
 }
