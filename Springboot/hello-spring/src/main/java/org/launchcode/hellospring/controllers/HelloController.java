@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @ResponseBody
-@RequestMapping("hello")
+//@RequestMapping("hello")
 public class HelloController {
 
     //lives at the path /hello
@@ -22,11 +22,11 @@ public class HelloController {
         return "Goodbye, Spring!";
     }
 
-    @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST}, value = "hello"   )
-    //lives at /hello?name=launchcode
-    public String helloWithQueryParam(@RequestParam String name) {
-        return "Hello " + name + "!";
-    }
+//    @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST}, value = "hello")
+//    //lives at /hello?name=launchcode
+//    public String helloWithQueryParam(@RequestParam String name) {
+//        return "Hello " + name + "!";
+//    }
  //handler that handles request of the form /hello/launchcode
 
     @GetMapping("hello/{name}")
@@ -35,15 +35,16 @@ public class HelloController {
     }
 
 
-    @RequestMapping(value="hello", method = RequestMethod.POST)
-    @ResponseBody
-    public String helloPost(@RequestParam String name, @RequestParam String language) {
-        if (name == null) {
-            name = "World";
-        }
-
-        return createMessage(name, language);
-
+//    @RequestMapping(value="hello", method = RequestMethod.POST)
+//    @ResponseBody
+//    public String helloPost(@RequestParam String name, @RequestParam String language) {
+//        if (name == null) {
+//            name = "World";
+//        }
+//
+//        return createMessage(name, language);
+//    }
+    @GetMapping()
     public static String createMessage(String n, String l) {
         String greeting = "";
 
@@ -74,21 +75,28 @@ public class HelloController {
             }
 
             return createMessage(name, language);
-
+        }
     @GetMapping("form")
     @ResponseBody
     public String helloForm() {
-        String controllerExercisesString =
-                "<html>" +
+             return   "<html>" +
                 "<body>" +
-                "<form action= 'hello' method= 'post'>" +
-                "<input type= 'text' name= 'name'>" +
-                "<input type= 'submit' value= 'Greet me'>" +
-                        "" +
-                        "<select name= "languages" id = "language-choices"" +
+                "<form action= '/hello' method= 'post'>" +
+                        "<input type= 'text' name= 'name'>" +
+                        "<select id= 'language' name = 'language'>" +
+//                     <option value="dog">Dog</option>
+                        "  <option value= 'english'>English</option>" +
+                        "  <option value= 'french'>French</option>" +
+                        "  <option value= 'italian'>Italian</option>" +
+                        "  <option value= 'spanish'>Spanish</option>" +
+                        "  <option value= 'german'>German</option>" +
+                        "</select>" +
+
+                        "<input type= 'submit' value= 'Greet me'>" +
+
                 "</form>" +
                 "</body>" +
                 "</html>";
-        return controllerExercisesString;
+//        return controllerExercisesString;
     }
 }
