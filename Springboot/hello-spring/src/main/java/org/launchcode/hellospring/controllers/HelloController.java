@@ -68,7 +68,6 @@ public class HelloController {
     }
 
         @RequestMapping(value="hello", method = RequestMethod.POST)
-        @ResponseBody
         public String helloPost(@RequestParam String name, @RequestParam String language) {
             if (name == null) {
                 name = "World";
@@ -77,7 +76,6 @@ public class HelloController {
             return createMessage(name, language);
         }
     @GetMapping("form")
-    @ResponseBody
     public String helloForm() {
              return   "<html>" +
                 "<body>" +
