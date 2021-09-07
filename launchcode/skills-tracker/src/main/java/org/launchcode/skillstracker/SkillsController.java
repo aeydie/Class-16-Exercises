@@ -13,29 +13,30 @@ import org.springframework.web.bind.annotation.*;
 
 public class SkillsController {
 
-    @GetMapping("/")
-    public String skillsList() {
-        String html = "<html>" +
-                "<body>" +
-                "<h1>Skills Tracker</h1>" +
-                "<h2>We have a few skills we would like to learn. Here is the list!</h2>" +
-                "<ol>" +
-                "<li>Java</li>" +
-                "<li>JavaScript</li>" +
-                "<li>Python</li>" +
-                "</ol>" +
-                "</body>" +
-                "</html>";
-        return html;
-    }
+//    @GetMapping("/")
+//    public String skillsList() {
+//        String html = "<html>" +
+//                "<body>" +
+//                "<h1>Skills Tracker</h1>" +
+//                "<h2>We have a few skills we would like to learn. Here is the list!</h2>" +
+//                "<ol>" +
+//                "<li>Java</li>" +
+//                "<li>JavaScript</li>" +
+//                "<li>Python</li>" +
+//                "</ol>" +
+//                "</body>" +
+//                "</html>";
+//        return html;
+//    }
 
     @RequestMapping(value = "response", method = {RequestMethod.GET, RequestMethod.POST})
     public String response(@RequestParam String name) {
         return "Hello + name";
     }
 
+    @GetMapping("form")
     public String skillsForm() {
-        String html = "<htmel" +
+        String html = "<html" +
                 "<body>" +
                 "<h1>Skills Tracker</h1>" +
                 "<h2>Here is the list of skills we would like to learn!</h2>" +
