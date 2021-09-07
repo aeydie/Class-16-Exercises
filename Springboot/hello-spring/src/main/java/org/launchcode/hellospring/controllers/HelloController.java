@@ -15,12 +15,13 @@ public class HelloController {
 
     //lives at /hello/goodbye
     @GetMapping("goodbye")
-
+    @ResponseBody
     public String goodbye() {
         return "Goodbye, Spring!";
     }
 
     @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST}, value = "hello")
+    @ResponseBody
     //lives at /hello?name=launchcode
     public String helloWithQueryParam(@RequestParam String name) {
         return "Hello " + name + "!";
@@ -28,6 +29,7 @@ public class HelloController {
     //handler that handles request of the form /hello/launchcode
 
     @GetMapping("hello/{name}")
+    @ResponseBody
     public String helloWithPathParam(@PathVariable String name) {
         return "Hello " + name + "!";
     }
