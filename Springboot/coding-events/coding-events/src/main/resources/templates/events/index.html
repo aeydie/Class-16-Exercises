@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Coding Events</title>
-</head>
+<head th:replace="fragments :: head"></head>
 <body>
 
-<h1>All Events</h1>
+<header th:replace="fragments :: header"></header>
 
-<p th:unless="${events} and ${events.size()}">No events</p>
-
-<ul>
+<table>
     <th:block th:each="event : ${events}">
-        <li th:text="${event}"></li>
+        <tr th:text="${event}"></tr>
+        <tr th:replace="fragment :: address"></tr>
     </th:block>
-</ul>
+</table>
 
 </body>
 </html>
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--      xsi:schemaLocation="http://www.thymeleaf.org/">-->
+
+<!--<head th:replace="fragments :: head"></head>-->
+<!--<body class="container">-->
+
+<!--<header th:replace="fragments :: header"></header>-->
+
+<!--&lt;!&ndash;<h1>All Events</h1>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<nav th:replace="fragments :: navigation"></nav>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<p th:unless="${events} and ${events.size()}">No events</p>&ndash;&gt;-->
+
+<!--<table class="table">-->
+<!--    <thead>-->
+<!--        <tr>-->
+<!--            <th>Name</th>-->
+<!--        </tr>-->
+<!--    </thead>-->
+<!--    <tr th:each="event : ${events}">-->
+<!--        <td th:text="${event}"></td>-->
+<!--    </tr>-->
+<!--</table>-->
+
+<!--</body>-->
+<!--</html>-->
