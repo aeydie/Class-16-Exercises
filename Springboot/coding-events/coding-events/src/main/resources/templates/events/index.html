@@ -7,8 +7,9 @@
 
 <table>
     <th:block th:each="event : ${events}">
-        <tr th:text="${event}"></tr>
-        <tr th:replace="fragment :: address"></tr>
+        <td th:text="${event.name}"></td>
+<!--        <tr th:text="${event}"></tr>-->
+<!--        <tr th:replace="fragment :: address"></tr>-->
     </th:block>
 </table>
 
