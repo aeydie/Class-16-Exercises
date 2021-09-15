@@ -1,13 +1,3 @@
-<style>
-.content {
-  max-width: 500px;
-  margin: auto;
+body {
+  font-size: 18px;
 }
-</style>
-<body>
-
-<div class="content">
-  <!-- Page content -->
-</div>
-
-</body>

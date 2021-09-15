@@ -10,21 +10,15 @@
 
 <nav th:fragment="header">
     <h1 th:text="${title}">Coding Events</h1>
-    <ul>
-        <li><a href="/events">All Events</a></li>
-        <li><a href="/events/create">Create Event</a></li>
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="/events">All Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="/events/create">Create Event</a></li>
+        <li class="nav-item"><a class="nav-link" href="/events/delete">Delete Event</a></li>
     </ul>
 </nav>
 
-<table>
-    <tr><
-<td th:fragment="address">1234 5th Street</td>
-    </tr>
-</table>
-
 </body>
 </html>
-
 
 <!--<!DOCTYPE html>-->
 <!--<html lang="en" xmlns:th="http://www.thymeleaf.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
