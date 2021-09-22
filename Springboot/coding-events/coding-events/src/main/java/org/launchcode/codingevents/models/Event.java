@@ -1,11 +1,28 @@
 package org.launchcode.codingevents.models;
 
+import javax.validation.constraints.AssertTrue;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Positive;
 import java.util.Objects;
 
 public class Event {
 
     private String name;
     private String description;
+
+    @NotBlank(message = "Location cannot be left blank!")
+
+    @AssertTrue
+    private boolean requiredAttendance;
+
+    @Positive(message="number of attendees much be one or more!")
+    private int numberOfAttendees;
+
+    @Past(message="Date of sign up has to be in the past!")
+    private String dateOfSignup;
+
+    private String location;
     private int id;
     private static int nextId = 1;
 
