@@ -10,6 +10,7 @@ public enum EventType {
 
     private final String displayName;
 
+
     EventType(String displayName) {
         this.displayName = displayName;
     }
@@ -17,4 +18,8 @@ public enum EventType {
     public String getDisplayName() {
         return displayName;
     }
+
+
+
+
 }

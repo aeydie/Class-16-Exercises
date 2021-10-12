@@ -1,10 +1,14 @@
 package org.launchcode.codingevents.models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.Objects;
 
+@Entity
 public class Event {
 
     @NotBlank(message="Name is required")
@@ -18,13 +22,13 @@ public class Event {
     @Email(message = "Invalid email. Try again!")
     private String contactEmail;
 
+    @Id
+    @GeneratedValue
     private int id;
-    private static int nextId = 1;
     private EventType type;
 
 
     public Event(String name, String description, String contactEmail, EventType type) {
-        this();
         this.name = name;
         this.description = description;
         this.contactEmail = contactEmail;
@@ -33,10 +37,7 @@ public class Event {
 
     }
 
-    public Event() {
-        this.id = nextId;
-        nextId++;
-    }
+    public Event() {}
 
 
 
