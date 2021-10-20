@@ -27,9 +27,21 @@ public class EventController {
     private EventCategoryRepository eventCategoryRepository;
 
     @GetMapping
-    public String displayAllEvents(Model model) {
-        model.addAttribute("title", "All Events");
-        model.addAttribute("events", eventRepository.findAll());
+    public String displayAllEvents(@RequestParam(required = false) Integer categoryId, Model model) {
+        if (categoryId == null) {
+            model.addAttribute("title", "All Events");
+            model.addAttribute("events", eventRepository.findAll());
+        } else {
+            Optional<EventCategory> result = eventCategoryRepository.findAllById(categoryId);
+            if (result.isEmpty()) {
+                model.addAttribute("title", "Invalid Category Id" + categoryId);
+            } else {
+                EventCategory category = result.get();
+                model.addAttribute("Events in Category: " + category.getName());
+                model.addAttribute("events", category.getEvents());
+            }
+        }
+
         return "events/index";
     }
 
