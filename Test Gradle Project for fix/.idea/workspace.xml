@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="261fb829-913a-4852-8798-9fd92e9f76f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/coding-events/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/models/EventDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment-4-techjobs-persistent-edition-aeydie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/controllers/EventCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/controllers/EventCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/controllers/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/java/org/launchcode/codingevents/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/eventCategories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/eventCategories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/events/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Springboot/coding-events/coding-events/src/main/resources/templates/events/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../launchcode/Launch-Checklist-Form/Launch-Checklist-Form" beforeDir="false" afterPath="$PROJECT_DIR$/../launchcode/Launch-Checklist-Form/Launch-Checklist-Form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spa-day-starter-code" beforeDir="false" afterPath="$PROJECT_DIR$/../spa-day-starter-code" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1zossV3wc6ttrPdzmxPnQqgcLG4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Test Gradle Project for fix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Test Gradle Project for fix" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="261fb829-913a-4852-8798-9fd92e9f76f1" name="Changes" comment="" />
+      <created>1634825983744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634825983744</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
